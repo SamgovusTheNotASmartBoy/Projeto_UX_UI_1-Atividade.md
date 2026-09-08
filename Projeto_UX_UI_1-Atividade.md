@@ -193,7 +193,7 @@ flowchart TD
 
 ---
 
-## ➤  Brainstorming, Crazy 8s e organização das ideias
+## ➤  Brainstorming
 
 Nessas etapas o grupo gera ideias livremente (sem avaliar ainda), depois agrupa por categorias. Com base no problema, as ideias foram organizadas nestas categorias:
 
