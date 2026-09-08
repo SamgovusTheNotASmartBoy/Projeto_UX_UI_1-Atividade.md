@@ -1,6 +1,5 @@
 # Projeto_UX_UI_1-Atividade.md
-Projeto de UX UI ( Design Thinking )
-
+## Projeto de UX UI ( Design Thinking )
 ---
 
 #  Atividade de UX/UI — gov.br
