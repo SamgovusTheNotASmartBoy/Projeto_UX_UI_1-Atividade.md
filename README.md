@@ -1,19 +1,24 @@
 # Projeto_UX_UI_1-Atividade.md
 Projeto de UX UI ( Design Thinking )
 
+---
 
-# Atividade de UX/UI — gov.br
+#  Atividade de UX/UI — gov.br
 
-## Sumário
-
-- [Etapa 1 — Pesquisa](#etapa-1--pesquisa)
-- [Etapa 2 — Definição do problema](#etapa-2--definição-do-problema)
-- [Etapa 3 — Personas](#etapa-3--personas)
-- [Etapa 4 — Jornadas do usuário](#etapa-4--jornadas-do-usuário)
+<img width="600" height="600" alt="gov-br-logo-png_seeklogo-550361" src="https://github.com/user-attachments/assets/cf327dd5-78d9-44e6-a48e-20f949d89bd2" />
 
 ---
 
-## Etapa 1 — Pesquisa
+## Sumário
+
+- [➤ Etapa 1 — Pesquisa](#etapa-1--pesquisa)
+- [➤ Etapa 2 — Definição do problema](#etapa-2--definição-do-problema)
+- [➤ Etapa 3 — Personas](#etapa-3--personas)
+- [➤ Etapa 4 — Jornadas do usuário](#etapa-4--jornadas-do-usuário)
+
+---
+
+## ➤ Etapa 1 — Pesquisa
 
 ### Usuários identificados e suas tarefas
 
@@ -36,7 +41,7 @@ Projeto de UX UI ( Design Thinking )
 
 ---
 
-## Etapa 2 — Definição do problema
+## ➤ Etapa 2 — Definição do problema
 
 > **Problema:** Usuários de diferentes faixas etárias enfrentam barreiras distintas ao usar o gov.br: usuários mais jovens e adultos sofrem com falhas técnicas recorrentes (erros na verificação facial, travamentos e instabilidade do servidor) que impedem a conclusão de tarefas importantes, enquanto usuários idosos evitam o uso direto do sistema por medo de golpes, dependendo de terceiros para realizar até tarefas simples.
 
@@ -44,7 +49,7 @@ Esse problema é sustentado pelas evidências da pesquisa: os três perfis relat
 
 ---
 
-## Etapa 3 — Personas
+## ➤ Etapa 3 — Personas
 
 <table>
 <tr>
@@ -115,7 +120,7 @@ Não tenta usar o site sozinho; pede ajuda a filhos ou netos para realizar o ace
 
 ---
 
-## Etapa 4 — Jornadas do usuário
+## ➤ Etapa 4 — Jornadas do usuário
 
 ### Jornada de Pedro
 
@@ -156,9 +161,17 @@ flowchart TD
 3. Travamento recorrente das páginas (Marinete).
 4. Barreira de confiança e medo de golpes, que impede o uso autônomo (José).
 
-   # Etapa 4 — Ideação gov.br
+---
 
-## 1. Retomem o problema
+### Resumo Visual da Situação dos Usuários
+
+<img width="1408" height="768" alt="Gemini_Generated_Image_p8zw1vp8zw1vp8zw" src="https://github.com/user-attachments/assets/aa8a72a9-f42a-47e3-9768-6a4aec0bef63" />
+
+---
+
+# ➤ Etapa 4 — Ideação gov.br
+
+## ➤  Retomem o problema
 
 | Questão | Resposta do grupo |
 |---|---|
@@ -171,7 +184,7 @@ flowchart TD
 
 ---
 
-## 2. Pergunta de ideação
+## ➤  Pergunta de ideação
 
 **Problema identificado:** usuários de diferentes idades não conseguem concluir o login e tarefas no gov.br devido a falhas técnicas na verificação facial e instabilidade do servidor, além do medo de golpes que impede o uso autônomo por parte dos idosos.
 
@@ -181,7 +194,7 @@ flowchart TD
 
 ---
 
-## 3–5. Brainstorming, Crazy 8s e organização das ideias
+## ➤  Brainstorming, Crazy 8s e organização das ideias
 
 Nessas etapas o grupo gera ideias livremente (sem avaliar ainda), depois agrupa por categorias. Com base no problema, as ideias foram organizadas nestas categorias:
 
@@ -193,9 +206,9 @@ Dessas categorias, foram selecionadas três ideias realmente diferentes entre si
 
 ---
 
-## 6. As 3 propostas
+## ➤  As 3 propostas
 
-###  Ideia 1
+###  ➤ Ideia 1
 
 **Nome da solução:** Login Alternativo Simplificado
 
@@ -211,7 +224,7 @@ Dessas categorias, foram selecionadas três ideias realmente diferentes entre si
 
 **Possíveis limitações:** Pode reduzir o nível de segurança se o método alternativo for mais fraco que o biométrico; exige dados de contato atualizados.
 
-###  Ideia 2
+###  ➤ Ideia 2
 
 **Nome da solução:** Painel de Status do Servidor em Tempo Real
 
@@ -227,7 +240,7 @@ Dessas categorias, foram selecionadas três ideias realmente diferentes entre si
 
 **Possíveis limitações:** Não resolve a instabilidade, apenas informa sobre ela; depende de monitoramento técnico preciso.
 
-###  Ideia 3
+###  ➤ Ideia 3
 
 **Nome da solução:** Atendimento Assistido para Usuários com Insegurança Digital
 
@@ -245,7 +258,7 @@ Dessas categorias, foram selecionadas três ideias realmente diferentes entre si
 
 ---
 
-## 7. Comparem as três ideias
+## ➤  Comparem as três ideias
 
 Escala de 1 a 5 (1 = Muito baixo, 5 = Muito alto).
 
@@ -266,7 +279,7 @@ Escala de 1 a 5 (1 = Muito baixo, 5 = Muito alto).
 
 ---
 
-## 8. Escolham a solução
+## ➤  Escolham a solução
 
 ### Solução escolhida
 
@@ -278,14 +291,14 @@ A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citad
 
 ---
 
-#  Entregável 4 — Documento de Ideação
+#  ➤ Entregável 4 — Documento de Ideação
 
 1. **Problema:** falhas técnicas recorrentes no login/verificação facial e instabilidade do servidor, somadas ao medo de golpes que afasta usuários idosos do uso autônomo do gov.br.
 2. **Persona:** Marinete, 46 anos, autônoma (com apoio de Pedro e José de Assis como pontos extremos da jornada).
 3. **Pergunta de ideação:** "Como poderíamos tornar o login e o uso do gov.br mais confiável e seguro, para que usuários de qualquer idade consigam concluir suas tarefas sozinhos?"
-4. **Ideia 1:** Login Alternativo Simplificado.
-5. **Ideia 2:** Painel de Status do Servidor em Tempo Real.
-6. **Ideia 3:** Atendimento Assistido para Usuários com Insegurança Digital.
+4. **➤ Ideia 1:** Login Alternativo Simplificado.
+5. **➤ Ideia 2:** Painel de Status do Servidor em Tempo Real.
+6. **➤ Ideia 3:** Atendimento Assistido para Usuários com Insegurança Digital.
 7. **Matriz de comparação:** Ideia 1 obteve o maior total (29 pontos).
 8. **Solução escolhida:** Login Alternativo Simplificado.
 9. **Justificativa:** resolve a dor no ponto exato em que ocorre, é viável tecnicamente e gera o maior valor para o usuário.
@@ -305,5 +318,14 @@ A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citad
 - [x] As soluções foram comparadas.
 - [x] Uma solução foi selecionada.
 - [x] A escolha foi justificada.
-- [] O documento possui os nomes dos integrantes. *(pendente — preencher com os nomes reais do grupo)*
--
+
+---
+
+Feito por:
+- Gustavo Vinícius
+- Natasha
+- Pedro Cardoso
+- Pedro Dias
+- Samuel Gouveia
+
+Projeto sujeito a alterações.
