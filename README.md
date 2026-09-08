@@ -1,2 +1,1 @@
-oq mano?
-
+ok
