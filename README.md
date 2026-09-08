@@ -2,7 +2,7 @@
 Projeto de UX UI ( Design Thinking )
 
 
-# Atividade de UX/UI — Site gov.br
+# Atividade de UX/UI — gov.br
 
 ## Sumário
 
@@ -155,3 +155,155 @@ flowchart TD
 2. Instabilidade/queda do servidor no momento crítico da tarefa (Pedro).
 3. Travamento recorrente das páginas (Marinete).
 4. Barreira de confiança e medo de golpes, que impede o uso autônomo (José).
+
+   # Etapa 4 — Ideação gov.br
+
+## 1. Retomem o problema
+
+| Questão | Resposta do grupo |
+|---|---|
+| Qual problema queremos resolver? | Falhas técnicas recorrentes no login/verificação facial e instabilidade do servidor do gov.br, além do medo de golpes que afasta usuários idosos do uso autônomo do site. |
+| Quem é o usuário? | Marinete, 46 anos, autônoma (persona principal); Pedro, 18 anos, universitário; José de Assis, 78 anos, aposentado. |
+| Qual é a principal necessidade desse usuário? | Conseguir fazer login e concluir tarefas no gov.br de forma estável, segura e sem depender de terceiros. |
+| Qual é a principal dor identificada na jornada? | Erro constante na verificação facial e travamento das páginas durante o login (Marinete); queda do servidor no momento crítico (Pedro); medo de golpes que impede o acesso sozinho (José). |
+| Em qual momento essa dor acontece? | No momento da autenticação/login e da verificação facial. |
+| O que deveria melhorar na experiência? | O processo de login deveria ter alternativas quando a verificação facial falha, e o usuário deveria sentir segurança para usar o site sem ajuda de terceiros. |
+
+---
+
+## 2. Pergunta de ideação
+
+**Problema identificado:** usuários de diferentes idades não conseguem concluir o login e tarefas no gov.br devido a falhas técnicas na verificação facial e instabilidade do servidor, além do medo de golpes que impede o uso autônomo por parte dos idosos.
+
+**Nossa pergunta:**
+
+> **Como poderíamos tornar o login e o uso do gov.br mais confiável e seguro, para que usuários de qualquer idade consigam concluir suas tarefas sozinhos, sem travamentos, erros ou medo de golpes?**
+
+---
+
+## 3–5. Brainstorming, Crazy 8s e organização das ideias
+
+Nessas etapas o grupo gera ideias livremente (sem avaliar ainda), depois agrupa por categorias. Com base no problema, as ideias foram organizadas nestas categorias:
+
+- **Autenticação/simplificação de processos** → método de login alternativo.
+- **Comunicação/notificação** → status do servidor em tempo real.
+- **Atendimento/acessibilidade** → suporte assistido para usuários inseguros.
+
+Dessas categorias, foram selecionadas três ideias realmente diferentes entre si (etapa 6, abaixo).
+
+---
+
+## 6. As 3 propostas
+
+###  Ideia 1
+
+**Nome da solução:** Login Alternativo Simplificado
+
+**Descrição:** Método de login alternativo à verificação facial, ativado quando o sistema detecta falha repetida na captura facial.
+
+**Como funciona?** Após duas tentativas malsucedidas, o sistema oferece "Não conseguiu verificar seu rosto? Use outro método", com autenticação via SMS, e-mail ou pergunta de segurança.
+
+**Qual dor da jornada resolve?** Verificação facial que dá erro repetidamente (Marinete e Pedro).
+
+**Benefício para o usuário:** Não fica travado em um único método de autenticação.
+
+**Principais funcionalidades:** Detecção automática de falhas; oferecimento de método alternativo; mensagem explicativa clara.
+
+**Possíveis limitações:** Pode reduzir o nível de segurança se o método alternativo for mais fraco que o biométrico; exige dados de contato atualizados.
+
+###  Ideia 2
+
+**Nome da solução:** Painel de Status do Servidor em Tempo Real
+
+**Descrição:** Indicador visível na página inicial informando se o sistema está normal, instável ou fora do ar.
+
+**Como funciona?** Antes de iniciar login ou envio de documentos, o usuário vê um aviso caso o servidor esteja instável.
+
+**Qual dor da jornada resolve?** Queda do servidor no meio de uma tarefa crítica (Pedro, na inscrição de estágio).
+
+**Benefício para o usuário:** Evita iniciar tarefas fadadas a falhar; permite planejar quando tentar novamente.
+
+**Principais funcionalidades:** Indicador de status; estimativa de normalização; notificação de retorno do serviço.
+
+**Possíveis limitações:** Não resolve a instabilidade, apenas informa sobre ela; depende de monitoramento técnico preciso.
+
+###  Ideia 3
+
+**Nome da solução:** Atendimento Assistido para Usuários com Insegurança Digital
+
+**Descrição:** Canal de suporte simplificado (chat ou telefone, linguagem acessível) para usuários com receio de usar o site sozinhos.
+
+**Como funciona?** O usuário liga ou usa chat oficial; um atendente orienta passo a passo ou realiza a tarefa em seu nome, com verificação segura de identidade.
+
+**Qual dor da jornada resolve?** Medo de golpes e dependência de terceiros (José de Assis).
+
+**Benefício para o usuário:** Permite realizar a tarefa com segurança, sem depender apenas de familiares.
+
+**Principais funcionalidades:** Atendimento humano oficial; linguagem simples; verificação segura de identidade.
+
+**Possíveis limitações:** Custo operacional; tempo de espera em horários de pico; ainda depende de terceiros (o atendente).
+
+---
+
+## 7. Comparem as três ideias
+
+Escala de 1 a 5 (1 = Muito baixo, 5 = Muito alto).
+
+### Matriz de decisão
+
+| Critério | Ideia 1 | Ideia 2 | Ideia 3 |
+|---|:---:|:---:|:---:|
+| Resolve o problema identificado | 4 | 3 | 4 |
+| Atende às necessidades da persona | 5 | 3 | 4 |
+| Melhora a Jornada do Usuário | 4 | 4 | 4 |
+| Facilidade de uso | 4 | 5 | 3 |
+| Viabilidade de implementação | 4 | 4 | 3 |
+| Potencial de inovação | 3 | 3 | 3 |
+| Valor gerado para o usuário | 5 | 3 | 4 |
+| **TOTAL** | **29** | **25** | **25** |
+
+> A maior pontuação pode ajudar na decisão, mas não substitui a reflexão do grupo.
+
+---
+
+## 8. Escolham a solução
+
+### Solução escolhida
+
+**Nome:** Login Alternativo Simplificado
+
+### Justificativa
+
+A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citada na pesquisa — a falha recorrente na verificação facial, que afeta Marinete (persona principal) e Pedro. Diferente da Ideia 2, que apenas informa sobre um problema sem resolvê-lo, e da Ideia 3, que depende de estrutura humana e não devolve autonomia total ao usuário, a Ideia 1 resolve a dor exatamente no ponto em que ela ocorre — o momento do login. É viável tecnicamente, pois reaproveita métodos de autenticação (SMS, e-mail) já usados em outros serviços do próprio governo, e gera valor direto ao reduzir o abandono de tarefas críticas como login e inscrições.
+
+---
+
+#  Entregável 4 — Documento de Ideação
+
+1. **Problema:** falhas técnicas recorrentes no login/verificação facial e instabilidade do servidor, somadas ao medo de golpes que afasta usuários idosos do uso autônomo do gov.br.
+2. **Persona:** Marinete, 46 anos, autônoma (com apoio de Pedro e José de Assis como pontos extremos da jornada).
+3. **Pergunta de ideação:** "Como poderíamos tornar o login e o uso do gov.br mais confiável e seguro, para que usuários de qualquer idade consigam concluir suas tarefas sozinhos?"
+4. **Ideia 1:** Login Alternativo Simplificado.
+5. **Ideia 2:** Painel de Status do Servidor em Tempo Real.
+6. **Ideia 3:** Atendimento Assistido para Usuários com Insegurança Digital.
+7. **Matriz de comparação:** Ideia 1 obteve o maior total (29 pontos).
+8. **Solução escolhida:** Login Alternativo Simplificado.
+9. **Justificativa:** resolve a dor no ponto exato em que ocorre, é viável tecnicamente e gera o maior valor para o usuário.
+
+---
+
+#  Checklist do grupo
+
+- [x] O problema está claramente identificado.
+- [x] A persona foi considerada durante a ideação.
+- [x] As dores da Jornada do Usuário foram utilizadas.
+- [x] Foi criada uma pergunta "Como poderíamos...?".
+- [x] Foram geradas várias possibilidades antes da seleção.
+- [x] Existem pelo menos 3 soluções diferentes.
+- [x] As três propostas estão descritas.
+- [x] Os benefícios para o usuário estão claros.
+- [x] As soluções foram comparadas.
+- [x] Uma solução foi selecionada.
+- [x] A escolha foi justificada.
+- [] O documento possui os nomes dos integrantes. *(pendente — preencher com os nomes reais do grupo)*
+-
