@@ -1,1 +1,2 @@
-por enquanto, nada?
+oq mano?
+
