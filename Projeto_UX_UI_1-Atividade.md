@@ -193,7 +193,7 @@ flowchart TD
 
 ---
 
-## ➤  Brainstorming
+## ➤  # Etapa 5 — Gerar Ideias - Brainstorming
 
 Nessas etapas o grupo gera ideias livremente (sem avaliar ainda), depois agrupa por categorias. Com base no problema, as ideias foram organizadas nestas categorias:
 
@@ -303,6 +303,81 @@ A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citad
 9. **Justificativa:** resolve a dor no ponto exato em que ocorre, é viável tecnicamente e gera o maior valor para o usuário.
 
 ---
+
+# Etapa 6 — Criar o Prótótipo
+
+## Imagens do Protótipo
+1. Login
+<img width="1375" height="718" alt="Tela Login" src="https://github.com/user-attachments/assets/bc981fa1-59d0-42c8-83b1-a23fbb676d55" />
+
+2. Tela Principal
+<img width="1371" height="722" alt="Tela Principal real" src="https://github.com/user-attachments/assets/94fea5ca-01a6-4e87-a24d-5bed14c05daa" />
+
+
+3. Tela Noticias
+<img width="1374" height="714" alt="Tela Principal" src="https://github.com/user-attachments/assets/7fcf3fa0-ae28-4464-8910-7996f3136204" />   
+<img width="1372" height="757" alt="Tela de Noticias" src="https://github.com/user-attachments/assets/bfc28815-623a-4ef9-87a4-13c67e53e262" />
+   
+4. Barra de Notificações
+<img width="1371" height="117" alt="Barra de notificações" src="https://github.com/user-attachments/assets/0ea84ddb-0f38-4e66-9cf5-2fa1dc2b0477" />
+obs: Site já contem programa para acessibilidade na diretriz (WCAG) e o modelo de acessibilidade em Governo Eletrônico (eMAG)
+
+# Etapa 7 — Teste
+
+**Tarefa principal** (testa home + busca):
+> Você recebeu um boleto do INSS e quer saber onde consultar o comprovante de pagamento do benefício. Use o protótipo para encontrar essa informação.
+
+Essa tarefa passa tanto pelos atalhos rápidos da home (ex.: "Meu INSS") quanto pela busca.
+
+**Tarefa secundária** (testa só a busca):
+> Você quer saber como tirar a segunda via da Carteira de Trabalho digital. Encontre essa informação pela busca do site.
+
+Rodar as duas tarefas ajuda a identificar se um eventual problema está na navegação pela home ou na busca em si.
+
+## Antes de começar
+
+Explicar para cada usuário que **quem está sendo testado é o protótipo, não ele** — isso reduz a vergonha de "errar" e incentiva a pensar em voz alta com mais naturalidade.
+
+## Tabela de observação
+
+| Usuário | Entendeu a tarefa? | Concluiu? | Onde travou | Dúvida que teve | Sugestão dele |
+|---|---|---|---|---|---|
+| U1 | | | | | |
+| U2 | | | | | |
+
+## Métricas complementares
+
+Para cada usuário, registrar (estimativa, sem precisar ser rigoroso):
+
+- **Tempo até concluir a tarefa**
+- **Quantidade de cliques/telas até chegar no resultado**
+
+Esses números ajudam a justificar as mudanças da Etapa 8 com algo mais concreto do que "achamos que ficou melhor".
+
+## Formato do teste
+
+Pode ser feito:
+
+- **Remoto**: compartilhando a tela e pedindo para a pessoa pensar em voz alta (gravar a tela, com autorização da pessoa, ajuda a revisar os pontos de trava depois sem depender só da memória de quem estava anotando).
+- **Presencial**: com o protótipo aberto no celular ou notebook da pessoa.
+
+---
+
+# Etapa 8 — Melhorar
+
+Formato: **Antes → Feedback → Depois**.
+
+### Exemplo 1 — Acessibilidade
+
+- **Antes:** barra de acessibilidade era só um ícone flutuante no canto, pouco visível.
+- **Feedback:** usuário não percebeu que existia opção de aumentar a letra.
+- **Depois:** movemos os controles (A-/A+/Alto contraste/VLibras) para uma barra fixa no topo, sempre visível — mudança feita entre a v1 e a v2 do protótipo.
+
+### Exemplo 2 — Busca
+
+- **Antes:** resultado da busca listava só o título do serviço, sem indicar se era "Meu INSS", "Carteira de Trabalho" etc.
+- **Feedback:** usuário não sabia qual resultado clicar porque os títulos pareciam genéricos.
+- **Depois:** adicionamos uma etiqueta/ícone do órgão ou categoria ao lado de cada resultado, para o usuário reconhecer de onde vem a informação antes de clicar.
 
 #  Checklist do grupo
 
