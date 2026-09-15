@@ -403,3 +403,7 @@ Feito por:
 - Samuel Gouveia
 
 Projeto sujeito a alterações.
+
+
+Link para o Slide de apresentação:
+https://canva.link/blkckwpu744whdh
