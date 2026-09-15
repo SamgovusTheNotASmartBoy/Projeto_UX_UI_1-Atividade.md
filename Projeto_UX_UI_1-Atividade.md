@@ -8,15 +8,6 @@
 
 ---
 
-## Sumário
-
-- [➤ Etapa 1 — Pesquisa](#etapa-1--pesquisa)
-- [➤ Etapa 2 — Definição do problema](#etapa-2--definição-do-problema)
-- [➤ Etapa 3 — Personas](#etapa-3--personas)
-- [➤ Etapa 4 — Jornadas do usuário](#etapa-4--jornadas-do-usuário)
-
----
-
 ## ➤ Etapa 1 — Pesquisa
 
 ### Usuários identificados e suas tarefas
@@ -193,7 +184,7 @@ flowchart TD
 
 ---
 
-## ➤  # Etapa 5 — Gerar Ideias - Brainstorming
+## ➤ Etapa 5 — Gerar Ideias - Brainstorming
 
 Nessas etapas o grupo gera ideias livremente (sem avaliar ainda), depois agrupa por categorias. Com base no problema, as ideias foram organizadas nestas categorias:
 
@@ -304,7 +295,7 @@ A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citad
 
 ---
 
-# Etapa 6 — Criar o Prótótipo
+#  ➤ Etapa 6 — Criar o Prótótipo
 
 ## Imagens do Protótipo
 1. Login
@@ -322,7 +313,7 @@ A Ideia 1 obteve a maior pontuação porque ataca diretamente a causa mais citad
 <img width="1371" height="117" alt="Barra de notificações" src="https://github.com/user-attachments/assets/0ea84ddb-0f38-4e66-9cf5-2fa1dc2b0477" />
 obs: Site já contem programa para acessibilidade na diretriz (WCAG) e o modelo de acessibilidade em Governo Eletrônico (eMAG)
 
-# Etapa 7 — Teste
+#  ➤ Etapa 7 — Teste
 
 **Tarefa principal** (testa home + busca):
 > Você recebeu um boleto do INSS e quer saber onde consultar o comprovante de pagamento do benefício. Use o protótipo para encontrar essa informação.
@@ -363,7 +354,7 @@ Pode ser feito:
 
 ---
 
-# Etapa 8 — Melhorar
+#  ➤ Etapa 8 — Melhorar
 
 Formato: **Antes → Feedback → Depois**.
 
